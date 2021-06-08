@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #89cff0;
+  animation: 5s multi_rotate1 linear infinite;
+}
+
+@keyframes multi_rotate1 {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #89cff0;
+}
+
+#portfolio {
+  background-color: #89cff0;
+}
+
+#contact {
+  background-color: #89cff0;
+  font-family: "Roboto Mono", monospace !important;
+}
+
+footer {
+  background-color: #89cff0;
+}
