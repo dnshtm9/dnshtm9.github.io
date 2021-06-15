@@ -9,7 +9,7 @@
       "value": 60,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1000
       }
     },
     "color": {
@@ -33,12 +33,12 @@
       "enable": true,
       "distance": 100,
       "color": "#000000",
-      "opacity": 0.4,
+      "opacity": 0.5,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 1,
       "direction": "none",
       "outModes": {
         "default": "out"
