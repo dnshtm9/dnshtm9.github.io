@@ -1,7 +1,7 @@
 {
   "fullScreen": {
     "enable": true,
-    "zIndex": -10
+    "zIndex": 0
   },
   "fpsLimit": 60,
   "particles": {
@@ -33,8 +33,8 @@
       "enable": true,
       "distance": 100,
       "color": "#000000",
-      "opacity": 0.5,
-      "width": 1
+      "opacity": 1,
+      "width": 2
     },
     "move": {
       "enable": true,
@@ -54,16 +54,13 @@
       },
       "onClick": {
         "enable": true,
-        "mode": "push"
+        "mode": "grab"
       },
       "resize": true
     },
     "modes": {
       "repulse": {
         "distance": 200
-      },
-      "push": {
-        "quantity": 4
       }
     }
   },
